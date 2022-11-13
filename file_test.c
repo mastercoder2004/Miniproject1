@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
         }
         newname1[length1]='\0';   //sets an end to string
         //printf("%s\n",newname);   //prints file name only
-        char newnewname1[length1+5];  //creates a new string that will contain the file name and future file extention
+        char newnewname1[length1+5];  //creates a new string that will contain the file name and future file extension
         for (int i = 0; i < length1+5; i++)  //initializes name to 0
         {
             newnewname1[i]=0;
@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
         {
             newnewname1[i]=newname1[i];
         }
-        strncat(newnewname1, ".crp",4);  //appended new file extention
+        strncat(newnewname1, ".crp",4);  //appended new file extension
         //printf("%s",newnewname);
         int result = rename(argv[2],newnewname1);   //this part of the code changes file type to crp
     }
@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
         }
         newname2[length2]='\0';   //sets an end to string
         //printf("%s\n",newname);   //prints file name only
-        char newnewname2[length2+5];  //creates a new string that will contain the file name and future file extention
+        char newnewname2[length2+5];  //creates a new string that will contain the file name and future file extension
         for (int i = 0; i < length2+5; i++)  //initializes name to 0
         {
             newnewname2[i]=0;
@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
         {
             newnewname2[i]=newname2[i];
         }
-        strncat(newnewname2, ".txt",4);  //appended new file extention
+        strncat(newnewname2, ".txt",4);  //appended new file extension
         //printf("%s",newnewname);
         int result = rename(argv[2],newnewname2);   //this part of the code changes file type to txt
     }
@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
         }
         newname1[length1]='\0';   //sets an end to string
         //printf("%s\n",newname);   //prints file name only
-        char newnewname1[length1+5];  //creates a new string that will contain the file name and future file extention
+        char newnewname1[length1+5];  //creates a new string that will contain the file name and future file extension
         for (int i = 0; i < length1+5; i++)  //initializes name to 0
         {
             newnewname1[i]=0;
@@ -134,7 +134,7 @@ int main(int argc, char *argv[])
         {
             newnewname1[i]=newname1[i];
         }
-        strncat(newnewname1, ".crp",4);  //appended new file extention
+        strncat(newnewname1, ".crp",4);  //appended new file extension
         //printf("%s",newnewname);
         int result = rename(argv[1],newnewname1);   //this part of the code changes file type to crp
     }
